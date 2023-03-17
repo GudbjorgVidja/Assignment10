@@ -1,6 +1,7 @@
 package is.hi.hbv202g.ass9.composite;
 
 import static org.junit.Assert.*;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +20,7 @@ public class MultiplyCompositeTest {
         NumberLeaf number2 = new NumberLeaf(2);
 
         multiplyComposite.add(number2);
-        assertEquals("A multiply composite consisting only of a leaf with value 2 should return 2",
+        assertEquals("A multiply composite consisting only of one leaf with value 2 should return 2",
                 2, multiplyComposite.getResult());
     }
 

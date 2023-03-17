@@ -1,6 +1,7 @@
 package is.hi.hbv202g.ass9.compositeLeafObservedByComposite;
 
 import static org.junit.Assert.*;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,7 +16,7 @@ public class PlusCompositeTest {
 
     @Test
     public void testEmptyPlusComposite() {
-        assertEquals(0, plusComposite.getResult());
+        assertEquals("An emoty plus composite should return 0", 0, plusComposite.getResult());
     }
 
     @Test
@@ -23,8 +24,8 @@ public class PlusCompositeTest {
         NumberLeaf number2 = new NumberLeaf(2);
 
         plusComposite.add(number2);
-        assertEquals("A plus composite consisting only of leaf with value 2 should return 2",
-                1, plusComposite.getResult());
+        assertEquals("A plus composite consisting only of one leaf with value 2 should return 2",
+                2, plusComposite.getResult());
     }
 
     @Test
