@@ -18,8 +18,4 @@ public class MultiplyComposite implements MathExpression {
     public void add(MathExpression e) {
         leafs.add(e);
     }
-
-    public static void main(String[] args) {
-
-    }
 }
