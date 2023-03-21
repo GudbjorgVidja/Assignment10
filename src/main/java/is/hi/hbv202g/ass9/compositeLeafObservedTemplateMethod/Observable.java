@@ -14,10 +14,6 @@ public abstract class Observable {
         observers.add(observer);
     }
 
-    public void detach(Observer observer) {
-        observers.remove(observer);
-    }
-
     public void notifyObservers() {
         for (Observer observer : observers) {
             observer.update();
