@@ -1,7 +1,7 @@
 package is.hi.hbv202g.ass9.composite;
 
 public class NumberLeaf implements MathExpression {
-    private int number = 10;
+    private int number;
 
     public NumberLeaf(int n) {
         number = n;
@@ -9,9 +9,5 @@ public class NumberLeaf implements MathExpression {
 
     public int getResult() {
         return number;
-    }
-
-    public static void main(String[] args) {
-
     }
 }

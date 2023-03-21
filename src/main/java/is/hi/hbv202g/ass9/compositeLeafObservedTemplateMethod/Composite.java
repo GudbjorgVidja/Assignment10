@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Composite implements MathExpression, Observer {
- 
-    protected List<MathExpression> leafs = new ArrayList<MathExpression>();
+
+    protected List<MathExpression> leafs = new ArrayList<>();
 
     protected int lastObservedResult;
 

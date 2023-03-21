@@ -4,12 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlusComposite implements MathExpression, Observer {
-    private List<MathExpression> leafs = new ArrayList<MathExpression>();
+    private List<MathExpression> leafs = new ArrayList<>();
 
     private int lastObservedResult;
 
     public int getResult() {
-        //int sum = leafs.remove(0).getResult();
         int sum = 0;
         for (MathExpression child : leafs) {
             sum += child.getResult();

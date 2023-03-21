@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MultiplyComposite implements MathExpression {
 
-    private List<MathExpression> leafs = new ArrayList<MathExpression>();
+    private List<MathExpression> leafs = new ArrayList<>();
 
     public int getResult() {
         int sum = leafs.remove(0).getResult();

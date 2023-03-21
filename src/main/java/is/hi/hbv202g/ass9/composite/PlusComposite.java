@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlusComposite implements MathExpression {
-    private List<MathExpression> leafs = new ArrayList<MathExpression>();
+    private List<MathExpression> leafs = new ArrayList<>();
 
     public int getResult() {
-        //int sum = leafs.remove(0).getResult();
         int sum = 0;
         for (MathExpression child : leafs) {
             sum += child.getResult();
@@ -17,9 +16,5 @@ public class PlusComposite implements MathExpression {
 
     public void add(MathExpression e) {
         leafs.add(e);
-    }
-
-    public static void main(String[] args) {
-
     }
 }

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MultiplyComposite implements MathExpression, Observer {
 
-    private List<MathExpression> leafs = new ArrayList<MathExpression>();
+    private List<MathExpression> leafs = new ArrayList<>();
 
     private int lastObservedResult;
 

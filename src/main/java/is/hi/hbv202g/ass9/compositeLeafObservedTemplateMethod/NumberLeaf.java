@@ -1,7 +1,7 @@
 package is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod;
 
 public class NumberLeaf extends Observable implements MathExpression {
-    private int number = 10;
+    private int number;
 
     public NumberLeaf(int n) {
         number = n;
