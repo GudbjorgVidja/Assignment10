@@ -15,7 +15,7 @@ Both the implementation and the tests are in Java package `is.hi.hbv202g.ass9`, 
   - `is.hi.hbv202g.ass9.compositeLeafObservedByComposite`: Test cases testing an implementation of a composite where the leafs are observed by the composite implementation.
   - `is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod`: The same test cases for testing the refactoring of the above patterns inspired by the template method pattern.
 - `src/site/markdown`:
-  -`markdown`: (site/markdown/markdown)
+  -`markdown`: ![] (site/markdown/markdown)
 
 ## Building
  Maven:
