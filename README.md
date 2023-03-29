@@ -27,7 +27,7 @@ directories:
     - `is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod`: The same test cases for testing the refactoring of the
       above patterns inspired by the template method pattern.
 - `src/site/markdown`:
-  -`markdown`: ! [linkurinn](src/site/markdown/documentation.md)
+  -`markdown`: ! [Documentation](src/site/markdown/documentation.md)
 
 ## Building
 
@@ -41,8 +41,6 @@ Maven:
 ## License
 
 MIT License
-[license file link](LICENCE)
+[license file link](LICENSE)
 
 [markdown license](src/site/markdown/LICENSE.md)
-
-[some link] (https://www.google.com/search?q=github+LICENSE+relative+link+README&oq=github+LICENSE+relative+link+README&aqs=chrome..69i57j69i64.15741j0j7&sourceid=chrome&ie=UTF-8)
