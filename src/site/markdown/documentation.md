@@ -1,1 +1,1 @@
-! [] (pink-donut.png);
+! [](pink-donut.png);
