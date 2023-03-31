@@ -36,9 +36,12 @@ Maven:
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`
   , `Tests`, or `TestCase`).
-- `pom.xml` supports to execute a main method
+- `pom.xml` supports to execute a main method (ekki hafa undir building?)
 
-## License
+## Licenses
 
-MIT License
-[license file link](LICENSE)
+[MIT License](LICENSE)
+
+## Documentation
+
+setja linkinn hér?
