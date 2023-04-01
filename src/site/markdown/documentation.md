@@ -1,1 +1,1 @@
-![](pink-donut.png);
+![](UML.png)
