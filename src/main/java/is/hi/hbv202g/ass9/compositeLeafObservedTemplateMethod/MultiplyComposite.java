@@ -1,6 +1,6 @@
 package is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod;
 
-public class MultiplyComposite extends Composite implements MathExpression, Observer {
+public class MultiplyComposite extends Composite {
 
     public int getResult() {
         int sum = leafs.remove(0).getResult();
