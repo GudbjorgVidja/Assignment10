@@ -26,8 +26,7 @@ directories:
       the leafs are observed by the composite implementation.
     - `is.hi.hbv202g.ass9.compositeLeafObservedTemplateMethod`: The same test cases for testing the refactoring of the
       above patterns inspired by the template method pattern.
-- `src/site/markdown`:
-  -`markdown`: [Documentation](src/site/markdown/documentation.md)
+- `src/site`: Contains directories markdown and resources, documentation in the form of an UML diagram and `site.xml`
 
 ## Building
 
@@ -36,7 +35,10 @@ Maven:
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`
   , `Tests`, or `TestCase`).
-- `pom.xml` supports to execute a main method (ekki hafa undir building?)
+
+## Execution
+
+`pom.xml` supports to execute a main method.
 
 ## Licenses
 
@@ -44,4 +46,4 @@ Maven:
 
 ## Documentation
 
-setja linkinn hér?
+[Documentation](src/site/markdown/documentation.md)
